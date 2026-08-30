@@ -23,15 +23,15 @@ The main objectives of this project are to:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The notebook uses the **U-Shape dataset (`ushape.csv`)**, which contains a non-linear pattern.
 
 The dataset is useful for demonstrating how a neural network learns non-linear decision boundaries.
 
----
+---   
 
-## 🧠 What is Xavier Initialization?
+## What is Xavier Initialization?
 
 Xavier Initialization, also called **Glorot Initialization**, initializes weights using the number of input and output neurons in a layer.
 
@@ -47,7 +47,7 @@ This helps maintain a more balanced signal throughout the network.
 
 ---
 
-## 🔬 Why Weight Initialization Matters
+## Why Weight Initialization Matters
 
 The initial weights of a neural network strongly influence how training begins.
 
@@ -63,7 +63,7 @@ Xavier initialization attempts to maintain a suitable scale of activations and g
 
 ---
 
-## ⚙️ Xavier Initialization and Activation Functions
+## Xavier Initialization and Activation Functions
 
 Xavier initialization is particularly associated with **Tanh** and **Sigmoid** activation functions.
 
@@ -73,7 +73,7 @@ Choosing an appropriate initialization helps provide better starting conditions 
 
 ---
 
-## 🏗️ Model Workflow
+## Model Workflow
 
 The notebook follows a workflow similar to:
 
@@ -101,7 +101,7 @@ Model Evaluation
 
 ---
 
-## 🧪 What This Notebook Demonstrates
+## What This Notebook Demonstrates
 
 * Loading and preparing the U-Shape dataset
 * Understanding neural network weight initialization
@@ -113,7 +113,7 @@ Model Evaluation
 
 ---
 
-## 🔑 Key Concepts Covered
+## Key Concepts Covered
 
 * Artificial Neural Networks
 * Weight Initialization
@@ -132,7 +132,7 @@ Model Evaluation
 
 ---
 
-## 📈 Key Learnings
+## Key Learnings
 
 ### 1. Initialization is Important
 
@@ -156,7 +156,7 @@ Xavier initialization can improve signal propagation, but it does not completely
 
 ---
 
-## 🆚 Common Initialization Strategies
+## Common Initialization Strategies
 
 | Initialization        | Common Use                          |
 | --------------------- | ----------------------------------- |
@@ -169,7 +169,7 @@ This comparison highlights why initialization strategy should be considered toge
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * NumPy
@@ -182,7 +182,7 @@ This comparison highlights why initialization strategy should be considered toge
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 After completing this project, I gained a better understanding of:
 
@@ -195,7 +195,7 @@ After completing this project, I gained a better understanding of:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Possible extensions include:
 
@@ -211,7 +211,7 @@ Possible extensions include:
 
 ---
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This project is part of my **Deep Learning learning journey**, where I am studying neural networks by understanding their fundamental components and training behavior.
 
@@ -221,7 +221,7 @@ It also builds a foundation for understanding more advanced initialization techn
 
 ---
 
-## ⭐ Final Takeaway
+## Final Takeaway
 
 **Good initialization gives a neural network a better starting point for learning.**
 
